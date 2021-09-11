@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Spring_ecommece</groupId>
-  <artifactId>Spring_E-commerce</artifactId>
+  <groupId>Spring</groupId>
+  <artifactId>Spring_ERP</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Ecommerce</name>
-  <description>dbpadhara</description>
+  <name>ERP</name>
+  <description>	</description>
   
   <build>
 		<plugins>
@@ -154,8 +154,6 @@
 			<version>20090211</version>
 		</dependency>
 
-		
-
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -188,40 +186,11 @@
 		    <artifactId>mail</artifactId>
 		    <version>1.4.3</version>
 	    </dependency>
-	    
-	    <!-- https://mvnrepository.com/artifact/com.sun.mail/pop3 -->
-		<dependency>
-		    <groupId>com.sun.mail</groupId>
-		    <artifactId>pop3</artifactId>
-		    <version>2.0.0</version>
-		</dependency>
-	    
 	    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
 		<dependency>
 	    	<groupId>org.springframework</groupId>
     		<artifactId>spring-context-support</artifactId>
     		<version>3.2.0.RELEASE</version>
-		</dependency>
-
-		<!-- Google ZXing Library  for barcode generation -->	
-	
-		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>core</artifactId>
-		    <version>3.3.0</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.google.zxing</groupId>
-		    <artifactId>javase</artifactId>
-		    <version>3.3.0</version>
-		</dependency>
-		
-		
-		<!-- Pull in as a traditional dependency -->
-		<dependency>
-		    <groupId>com.konghq</groupId>
-		    <artifactId>unirest-java</artifactId>
-		    <version>3.11.00</version>
 		</dependency>
 
 	</dependencies>
